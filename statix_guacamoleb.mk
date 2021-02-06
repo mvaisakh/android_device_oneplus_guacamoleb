@@ -13,6 +13,7 @@ $(call inherit-product, device/oneplus/guacamoleb/device.mk)
 
 # Inherit some common Statix stuff.
 $(call inherit-product, vendor/statix/config/common.mk)
+$(call inherit-product, vendor/statix/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := statix_guacamoleb
