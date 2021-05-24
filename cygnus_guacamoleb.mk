@@ -20,7 +20,8 @@ $(call inherit-product, device/qcom/common/common.mk)
 # Bootanimation resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# GApps architechture
+# GApps specification
+WITH_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions.
