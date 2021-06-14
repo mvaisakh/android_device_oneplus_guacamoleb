@@ -23,6 +23,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.qcom
 
+# NoCutout
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay
+
 # Vibrator
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator@1.2-service
