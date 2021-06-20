@@ -393,4 +393,6 @@
      -->
     <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
 
+    <!-- Defines custom OEM sensor for pocket detection. -->
+    <string name="config_pocketJudgeVendorSensorName">oneplus.sensor.pocket</string>
 </resources>
