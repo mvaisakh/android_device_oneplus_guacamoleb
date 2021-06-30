@@ -9,6 +9,9 @@ $(call inherit-product, device/oneplus/sm8150-common/common.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/oneplus/guacamoleb/guacamoleb-vendor.mk)
 
+# Include OOS Camera conditionally
+$(call inherit-product-if-exists, vendor/oneplus/camera/camera-vendor.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
